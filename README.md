@@ -1,4 +1,4 @@
-# EncendidoPorAutomatizacion
+# Encendido Por Automatizacion
 Encendido por automatización inductiva AWS
 El siguiente proyecto es parte de la formacion autodicata
 Las tablas cuenta con referencia de ensayos y son propeidad de AWS Architected Center 
