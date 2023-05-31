@@ -58,12 +58,53 @@ Asigrnar nombre: Encendido-Automatización-Inductiva
 - Rango de IP permitido - Bloque CIDR para permitir el acceso SSH externo.
 - Configuración del bastión de Linux: Crear Pila de bastion: seleccione FALSO sí: no desea implementar la pila de host bastión opcional.
 - Configuración de la base de datos: AuroraPostgresDB
-- Período de retención de la copia de seguridad de la base de datos: *defecto*
-- 
- 
-      
+- Período de retención de la copia de seguridad de la base de datos: *defecto* 
+- Versión del motor de base de datos: *defecto*
+- Clase de instancia de base de datos: *defecto* o db.r5.large
+- Nombre de usuario del administrador de la base de datos: *defecto*  o editelo 
+- Contraseña del administrador de la base de datos 
+- puerto de base de datos: 5432
+- Implementación Multi-AZ: VERDADERO
+- Habilitar el cifrado de la base de datos: a convenir
+- Exportar registros de bases de datos a Amazon Cloudwatch: Verdadero
+- Habilitar suscripción a eventos: a convenir
+- Correo electrónico de notificación de Amazon SNS: ******
+
+# Configuración de encendido
+-Acuerdo de licencia de software de automatización inductiva : En este paso es donde se acepta el acuerdo de licencia https://inductiveautomation.com/ignition/license
+- Se asigna una instancia de encendido : Yo asigne una t2.grande
+- Nombre del sistema Ignition Gateway: Ignition
+- Nombre de usuario de la cuenta raíz de Ignition.
+- Contraseña de la cuenta raíz de encendido + confirmacion 
+- Habilitar la redundancia de encendido: VERDADERO
+# Configuracion de inicio rapido 
+- Nombre del depósito S3 de la solución de socio:Nombre del depósito de S3 para su copia de los activos de implementación.
+ Mantenga el nombre predeterminado a menos que esté personalizando la plantilla. Cambiar el nombre actualiza las referencias del código para señalar una nueva ubicación.
+- Región de depósito S3 de la solución de socio: Región de AWS donde se aloja el depósito de S3 (QSS3BucketName). Mantenga la Región predeterminada a menos que esté personalizando la plantilla. Cambiar la región actualiza las referencias de código para que apunten a una nueva ubicación. Cuando utilice su propio depósito, especifique la Región.
+-Prefijo de clave S3 de la solución de socios
+
+# Especificar los detalles de pilas 
+- Etiquetas
+- Permisos: Cree un rol 
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "sts:AssumeRole"
+            ],
+            "Principal": {
+                "Service": [
+                    "ec2.amazonaws.com"
+                ]
+            }
+        }
+    ]
+}
     
-    
+-----------------------------------------
     
     
     
