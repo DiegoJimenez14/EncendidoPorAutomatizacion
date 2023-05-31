@@ -38,8 +38,8 @@ Procedimeinto independeinte
  Stack 
  Esta se enciuentra preconfigurada
  
- **************************** La pila tiene una configuracion de AZ us-east-1 Norte de virginia. De uso hapitual personal 
- **************************** Que sucede si al inciar la pila tenemos una zona diferente en la consola? 
+La pila tiene una configuracion de AZ us-east-1 Norte de virginia. De uso hapitual personal 
+Que sucede si al inciar la pila tenemos una zona diferente en la consola? 
  
  Probé cambiando a us-west-2 y manteniendo la URL de Amazon S2
  
