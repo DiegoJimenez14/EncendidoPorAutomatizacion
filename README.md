@@ -25,7 +25,7 @@ socios con parámetros predeterminados crea el siguiente entorno de Ignition en 
 Antes de implementar: leer terminos de licencia 
 
 
- -------- Procedimeinto independeinte  ----------
+Procedimeinto independeinte  
  
  Cuenta personal Diego Jiemenez by UserIAM 
  
