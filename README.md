@@ -48,14 +48,18 @@ Pasos previos
   - Tendrá que ingresar sus propios nombres de dominio para la opcion de implementacion de clusters y luego usarlos en el balanceador de carga
   - Los nombres de denominio que se han proporcionado generan un certificado SSL y enciara un correo electronico al administrador de dominio y así
     verificar la propeidad 
+  - Luego de la implementacion configure un registro DNS CNAME para el nombre de dominio Ignition.
 ## Pasos 
 Asigrnar nombre: Encendido-Automatización-Inductiva
 ## Parametros: 
 - Network Configuration : Key name - 
- 
- 
- 
-
+- Zonas de disponibilidad
+- Acceso web CIDR: 0.0.0.0/0
+- Rango de IP permitido - Bloque CIDR para permitir el acceso SSH externo.
+- Configuración del bastión de Linux: Crear Pila de bastion: seleccione FALSO sí: no desea implementar la pila de host bastión opcional.
+- Configuración de la base de datos: AuroraPostgresDB
+- Período de retención de la copia de seguridad de la base de datos: *defecto*
+- 
  
       
     
