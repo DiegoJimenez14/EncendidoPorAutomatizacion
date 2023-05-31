@@ -86,23 +86,10 @@ Asigrnar nombre: Encendido-Automatización-Inductiva
 # Especificar los detalles de pilas 
 - Etiquetas
 - Permisos: Cree un rol 
+12 34 56 78
+87AcVD1.
 
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "sts:AssumeRole"
-            ],
-            "Principal": {
-                "Service": [
-                    "ec2.amazonaws.com"
-                ]
-            }
-        }
-    ]
-}
+
     
 -----------------------------------------
     
