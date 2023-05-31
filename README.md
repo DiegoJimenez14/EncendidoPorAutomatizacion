@@ -38,12 +38,24 @@ Procedimeinto independeinte
  Stack 
  Esta se enciuentra preconfigurada
  
-La pila tiene una configuracion de AZ us-east-1 Norte de virginia. De uso hapitual personal 
-Que sucede si al inciar la pila tenemos una zona diferente en la consola? 
+La pila tiene una configuracion de AZ us-east-1 Norte de virginia. De uso habitual personal - 
+
+
+Pasos previos 
+- Leer acuerdos de licencia 
+- ingrese 0.0.0.0/0 para el parametro Web access CIDR( WebAccessCIDR) Permite que la implementacion este disponible para internet publico
+  tambien puede ingresar bloque CIDR y eliminar el acceso di Ignition a un grupo especifico de IP
+  - Tendrá que ingresar sus propios nombres de dominio para la opcion de implementacion de clusters y luego usarlos en el balanceador de carga
+  - Los nombres de denominio que se han proporcionado generan un certificado SSL y enciara un correo electronico al administrador de dominio y así
+    verificar la propeidad 
+## Pasos 
+Asigrnar nombre: Encendido-Automatización-Inductiva
+## Parametros: 
+- Network Configuration : Key name - 
  
- Probé cambiando a us-west-2 y manteniendo la URL de Amazon S2
  
  
+
  
       
     
