@@ -29,11 +29,8 @@ Procedimeinto independeinte
  
  Cuenta personal Diego Jiemenez by UserIAM 
  
- Opcion de implementacion 1  -- Ser Único 
- -
-  -
-   -
-    - Crea un entorno de AWS que incluye: VPV, Subredes, puertas de anlace NAT, grupos de segurida, host bastion ** Componentes de arquitectura 
+Opcion de implementacion 1  -- Ser Único 
+Crea un entorno de AWS que incluye: VPV, Subredes, puertas de anlace NAT, grupos de segurida, host bastion ** Componentes de arquitectura 
     
  Stack 
  Esta se enciuentra preconfigurada
