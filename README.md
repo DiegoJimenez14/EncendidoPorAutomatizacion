@@ -42,10 +42,10 @@ Pasos previos
 - Leer acuerdos de licencia 
 - ingrese 0.0.0.0/0 para el parametro Web access CIDR( WebAccessCIDR) Permite que la implementacion este disponible para internet publico
   tambien puede ingresar bloque CIDR y eliminar el acceso di Ignition a un grupo especifico de IP
-  - Tendrá que ingresar sus propios nombres de dominio para la opcion de implementacion de clusters y luego usarlos en el balanceador de carga
-  - Los nombres de denominio que se han proporcionado generan un certificado SSL y enciara un correo electronico al administrador de dominio y así
-    verificar la propeidad 
-  - Luego de la implementacion configure un registro DNS CNAME para el nombre de dominio Ignition.
+ - Tendrá que ingresar sus propios nombres de dominio para la opcion de implementacion de clusters y luego usarlos en el balanceador de carga
+ - Los nombres de denominio que se han proporcionado generan un certificado SSL y enciara un correo electronico al administrador de dominio y así
+   verificar la propeidad 
+ - Luego de la implementacion configure un registro DNS CNAME para el nombre de dominio Ignition.
 ## Pasos 
 Asigrnar nombre: Encendido-Automatización-Inductiva
 ## Parametros: 
