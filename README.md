@@ -86,12 +86,8 @@ Asigrnar nombre: Encendido-Automatización-Inductiva
 # Especificar los detalles de pilas 
 - Etiquetas
 - Permisos: Cree un rol 
-12 34 56 78
-87AcVD1.
 
 
-    
------------------------------------------
     
     
     
